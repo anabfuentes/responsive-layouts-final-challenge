@@ -53,6 +53,15 @@ button {
 
 /*section-three*/
 
+.subsection-3 {
+    background-color: #2E323f;
+    text-align: center;
+    color: white;
+
+    padding: 2em;
+    margin: 2em;
+}
+
 /*footer*/
 
 .footer-section {
