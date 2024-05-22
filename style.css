@@ -33,6 +33,15 @@ button {
     padding: .5em 1.25em;
 }
 
+.subsection-heading {
+    font-size: 1.20rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.subsection {
+    font-size: .90rem;
+}
+
 /*main*/
 
 .main-section {
@@ -67,6 +76,10 @@ span {
     padding: 1em 2em;
 }
 
+.section-three-heading {
+    color:#A59678;
+}
+
 .subsection-3 {
     background-color: #2E323f;
     text-align: center;
@@ -82,6 +95,7 @@ span {
     background-color: #3B4050;
     color: white;
     padding: 3em 0;
+    text-align: center;
 }
 
 .heading {
