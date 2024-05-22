@@ -33,25 +33,39 @@ button {
     padding: .5em 1.25em;
 }
 
-/*colors + typography*/
 /*main*/
 
 .main-section {
     background-color: #3B4050;
     padding: 3em 0;
+    color: white;
+}
+
+span {
+    color:#A59678;
 }
 
 /*section-two*/
 
 .section-two {
     background-color: #f2eee3;
+    text-align: center;
+    padding: 2em;
 }
 
 .section-two-heading {
     color:#A59678;
 }
 
+.subsection-2 {
+    padding: .25em 0;
+}
+
 /*section-three*/
+
+.section-three {
+    padding: 1em 2em;
+}
 
 .subsection-3 {
     background-color: #2E323f;
