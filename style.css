@@ -33,6 +33,111 @@ button {
     padding: .5em 1.25em;
 }
 
+.nav {
+    width: 100%;
+}
+
+.nav-toggle {
+    cursor: pointer;
+    border: 0;
+    width: 3em;
+    height: 3em;
+    padding: 0em;
+    margin-left: 1em;
+    border-radius: 50%;
+    color: white;
+    background-color:#A59678;
+    transition: opacity 250ms ease;
+
+    position: absolute;
+    left: 0;
+}
+
+.nav-toggle:focus,
+.nav-toggle:hover {
+    opacity: .75;
+}
+
+.hamburger {
+    width: 50%;
+    position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    display:block;
+    margin: 0 auto;
+    height: 3px;
+    background: white;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content:'';
+    width: 100%;
+}
+
+.hamburger::before {
+    transform: translateY(-6px);
+}
+
+.hamburger::after {
+    transform: translateY(3px);
+}
+
+.nav {
+    visibility: hidden;
+    height: 0;
+    position: absolute;
+    font-size: 1rem;
+}
+
+.nav--visible {
+    visibility: visible;
+    height: auto;
+    position: relative;
+} 
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list-primary {
+    margin-bottom: 2em;
+}
+
+.nav-item {
+    margin-top: .75em;
+}
+
+.nav-link {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav-link-button {
+    color:white;
+    background-color: #A59678;
+    padding: .25em .75em;
+    border-radius: 100px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    opacity: .65;
+}
+
+.logo {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .subsection-heading {
     font-size: 1.20rem;
     font-family: 'Oswald', sans-serif;
@@ -42,16 +147,31 @@ button {
     font-size: .90rem;
 }
 
-/*main*/
+/*header*/
 
 .main-section {
+    padding: 1.25em 0;
+    color: white;
+    background-color: #2E323f;
+}
+
+/*hero*/
+
+.hero {
     background-color: #3B4050;
-    padding: 3em 0;
     color: white;
 }
 
 span {
     color:#A59678;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+.hero p {
+    font-size: 1.5em;
 }
 
 /*section-two*/
