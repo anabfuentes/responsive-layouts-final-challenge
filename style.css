@@ -7,7 +7,8 @@
 body {
     margin: 0;
     font-family: 'Monserrat', sans-serif;
-    font-size: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.6;
 }
 
 img {
@@ -138,13 +139,13 @@ button {
     align-items: center;
 }
 
-.subsection-heading {
-    font-size: 1.20rem;
+.sidebar .heading {
+    font-size: 1.4rem;
     font-family: 'Oswald', sans-serif;
 }
 
 .subsection {
-    font-size: .90rem;
+    font-size: 1.25rem;
 }
 
 /*header*/
