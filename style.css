@@ -2,11 +2,24 @@
     box-sizing: border-box;
 }
 
-/*colors and typography*/
+body {
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    padding: 1em 0;
+}
+
+nav {
+    display: flex;
+}
 
 body {
     line-height: 1.16;
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+
 }
 
 .header {
@@ -29,18 +42,74 @@ a {
     color: white;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+span {
+    color: #A59678;
+}
+
 button {
     background-color: #A59678;
     color: white;
     text-transform: uppercase;
     font-family:'Oswald', sans-serif;
+    font-size: 1.5rem;
 }
 
 .section-two {
-    background-color: #F4EBE2;
+    background-color: #e5e1dd;
+    padding: 1.5em 0;
+}
+
+.section-two h2 {
+    color: #A59678;
+    
+}
+
+.section-three {
+    padding: 1.5em 0;
+}
+
+.sidebar {
+    background-color: #3B4050;
+    color: white;
+    text-align: center;
+    margin: 1.5em;
+    padding: 1em;
 }
 
 .footer {
     background: #3B4050;
     color: white;
+    padding: 1.5em 0;
+}
+
+.footer h4 {
+    font-size: 1.85em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+
+/*margins + padding*/
+
+.hero {
+    padding: 60px 0;
+}
+
+h1 {
+    margin: 0;
+    padding-bottom: 20px;
 }
